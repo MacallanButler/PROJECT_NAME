@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Reviews</title>
+</head>
+<body>
+  <header>
+    <h1>John Doe Fitness</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="calendar.html">Book a Session</a>
+      <a href="contact.html">Contact / Reviews</a>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="contact-name">Name:</label>
+      <input type="text" id="contact-name" required>
+
+      <label for="contact-email">Email:</label>
+      <input type="email" id="contact-email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Verified Reviews -->
+  <section id="reviews">
+    <h2>Verified Client Reviews</h2>
+    <div class="review">
+      <p><strong>Jane D.</strong>: Great trainer! Really helped me hit my goals.</p>
+      <span>[Verified]</span>
+    </div>
+    <div class="review">
+      <p><strong>Mike S.</strong>: Excellent sessions, very knowledgeable.</p>
+      <span>[Verified]</span>
+    </div>
+
+    <!-- Submit review form -->
+    <h3>Leave a Review</h3>
+    <form id="review-form">
+      <label for="review-name">Name:</label>
+      <input type="text" id="review-name" required>
+
+      <label for="review-text">Review:</label>
+      <textarea id="review-text" required></textarea>
+
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 John Doe Fitness</p>
+  </footer>
+  <script src="contact.js"></script>
+</body>
+</html>
